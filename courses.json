@@ -1,0 +1,38 @@
+[
+  {
+    "course_name": "Python Programming",
+    "career_goal": "AI Engineer",
+    "required_skills": ["python"],
+    "reason": "Python is the foundation language required for AI and machine learning development."
+  },
+  {
+    "course_name": "Data Analysis with Python",
+    "career_goal": "Data Analyst",
+    "required_skills": ["python", "pandas", "numpy"],
+    "reason": "Data analysis skills help in cleaning, processing, and understanding datasets."
+  },
+  {
+    "course_name": "Machine Learning",
+    "career_goal": "AI Engineer",
+    "required_skills": ["machine learning", "statistics"],
+    "reason": "Machine Learning helps build intelligent systems that learn from data."
+  },
+  {
+    "course_name": "Deep Learning",
+    "career_goal": "AI Engineer",
+    "required_skills": ["neural networks"],
+    "reason": "Deep Learning is useful for advanced AI applications like image recognition and NLP."
+  },
+  {
+    "course_name": "SQL Database Management",
+    "career_goal": "Data Analyst",
+    "required_skills": ["sql"],
+    "reason": "SQL is required to store, retrieve, and analyze structured data."
+  },
+  {
+    "course_name": "Generative AI",
+    "career_goal": "AI Engineer",
+    "required_skills": ["llm", "prompt engineering"],
+    "reason": "Generative AI knowledge helps create modern AI applications and agents."
+  }
+]
