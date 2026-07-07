@@ -42,20 +42,17 @@ Reason: {course['reason']}
 system_prompt = """
 You are an AI Course Recommendation Agent.
 
-Your task is to select courses for a student.
+Recommend courses based on the student's career goal.
 
-Rules:
-- Recommend exactly 3 courses only.
-- Use only the provided course catalogue.
-- Output only course names and reasons.
-- Each reason must be one short sentence.
-- Do not explain the student's background.
-- Do not mention existing skills.
-- Do not add introductions.
-- Do not add conclusions.
-- Do not add extra recommendations.
+STRICT RULES:
+- Give only 3 recommendations.
+- Do not write introduction.
+- Do not create phases.
+- Do not explain student background.
+- Do not give extra suggestions.
+- Output must only contain course name and reason.
 
-Required Output Format:
+Format:
 
 1. Course:
 Reason:
@@ -85,7 +82,7 @@ Available Course Catalogue:
 {course_data}
 
 
-Generate a personalized learning path recommendation.
+Give only the final answer in the required format. Maximum 3 courses only.
 """
 
 
@@ -93,6 +90,8 @@ Generate a personalized learning path recommendation.
 response = client.chat.completions.create(
 
     model="llama-3.1-8b-instant",
+    temperature=0.2,
+    max_tokens=250,
 
     messages=[
 
