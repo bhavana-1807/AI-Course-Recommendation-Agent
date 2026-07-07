@@ -1,0 +1,16 @@
+------AI Course Recommendation Agent-----
+Enter Student Name: BHAVANA A P
+Enter Background: MCA
+Enter Current Skills (comma separated): Python SQL
+Enter Career Goal: AI engineer
+
+Personalized Learning Path for BHAVANA A P
+--------------------------------
+1 . Machine Learning
+Reason: Machine Learning helps build intelligent systems that learn from data.
+
+2 . Deep Learning
+Reason: Deep Learning is useful for advanced AI applications like image recognition and NLP.
+
+3 . Generative AI
+Reason: Generative AI knowledge helps create modern AI applications and agents.
