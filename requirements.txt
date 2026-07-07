@@ -1,1 +1,2 @@
-# Required packages for AI Course Recommendation Agent
+groq
+python-dotenv
