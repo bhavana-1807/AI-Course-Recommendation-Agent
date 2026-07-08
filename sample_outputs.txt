@@ -1,16 +1,189 @@
-------AI Course Recommendation Agent-----
-Enter Student Name: BHAVANA A P
-Enter Background: MCA
-Enter Current Skills (comma separated): Python SQL
-Enter Career Goal: AI engineer
+AI Course Recommendation Agent - Sample Outputs
 
-Personalized Learning Path for BHAVANA A P
---------------------------------
-1 . Machine Learning
-Reason: Machine Learning helps build intelligent systems that learn from data.
 
-2 . Deep Learning
-Reason: Deep Learning is useful for advanced AI applications like image recognition and NLP.
+========================================
+TEST CASE 1
+========================================
 
-3 . Generative AI
-Reason: Generative AI knowledge helps create modern AI applications and agents.
+Input:
+
+Student Name: BHAVANA
+Background: MCA
+Current Skills: Python, SQL
+Career Goal: Bank Manager
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Banking and Finance Fundamentals
+Reason: Builds knowledge of banking operations, finance, and financial services.
+
+2. Course: Accounting and Taxation
+Reason: Develops accounting, taxation, and financial reporting skills.
+
+3. Course: Human Resource Management
+Reason: Teaches recruitment, employee management, and workplace skills.
+
+
+
+========================================
+TEST CASE 2
+========================================
+
+Input:
+
+Student Name: Vanshi
+Background: MCA
+Current Skills: Machine Learning, Python, HTML
+Career Goal: Data Scientist
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Machine Learning
+Reason: Develops skills to build intelligent systems using data.
+
+2. Course: Data Analysis with Python
+Reason: Helps analyze and understand datasets using Python libraries.
+
+3. Course: SQL Database Management
+Reason: Helps manage and analyze structured data.
+
+
+
+========================================
+TEST CASE 3
+========================================
+
+Input:
+
+Student Name: Rama
+Background: MBA
+Current Skills: SAP, Data Analytics
+Career Goal: Assistant Professor
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Content Writing
+Reason: Improves professional writing and content creation skills.
+
+2. Course: Psychology Basics
+Reason: Provides understanding of human behavior and learning methods.
+
+3. Course: Human Resource Management
+Reason: Improves communication and management-related skills.
+
+
+
+========================================
+TEST CASE 4
+========================================
+
+Input:
+
+Student Name: Shivani
+Background: BE in Information Science
+Current Skills: Cyber Security, C, Java
+Career Goal: Cyber Crime Officer
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Cyber Security Fundamentals
+Reason: Builds knowledge of security concepts and threat prevention.
+
+2. Course: Programming Fundamentals
+Reason: Improves technical skills required for security analysis.
+
+3. Course: Psychology Basics
+Reason: Helps understand human behavior involved in cyber investigations.
+
+
+
+========================================
+TEST CASE 5
+========================================
+
+Input:
+
+Student Name: Leeya
+Background: B.Sc Mathematics
+Current Skills: Problem Solving
+Career Goal: Teacher
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Teaching Skills and Education Methods
+Reason: Improves teaching methods and classroom skills.
+
+2. Course: Psychology Basics
+Reason: Helps understand student behavior and learning patterns.
+
+3. Course: Communication Skills
+Reason: Improves explanation and presentation abilities.
+
+
+
+========================================
+TEST CASE 6
+========================================
+
+Input:
+
+Student Name: Rudhrakshi
+Background: MA
+Current Skills: Writing
+Career Goal: Poetry
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Creative Writing
+Reason: Improves storytelling, imagination, and creative expression skills.
+
+2. Course: Literature Studies
+Reason: Develops language understanding and literary analysis skills.
+
+3. Course: Content Writing
+Reason: Improves professional writing and content creation skills.
+
+
+
+========================================
+TEST CASE 7
+========================================
+
+Input:
+
+Student Name: Bhuvanaa
+Background: MBA
+Current Skills: SAP
+Career Goal: Literature
+
+
+Output:
+
+Recommended Learning Path:
+
+1. Course: Content Writing
+Reason: Improves professional writing and content creation skills.
+
+2. Course: Creative Writing
+Reason: Improves storytelling, imagination, and creative expression skills.
+
+3. Course: Literature Studies
+Reason: Develops language understanding and literary analysis skills.
