@@ -2,15 +2,15 @@
   {
     "name": "Bhavana",
     "background": "MCA Student",
-    "current_skills": ["Python", "SQL", "Data Analytics"],
-    "career_goal": "AI Engineer"
+    "current_skills": ["Python", "SQL", "Machine Learning"],
+    "career_goal": "Data Scientist"
   },
 
   {
     "name": "Rahul",
     "background": "Computer Science Graduate",
     "current_skills": ["HTML", "CSS"],
-    "career_goal": "Data Analyst"
+    "career_goal": "Web Developer"
   },
 
   {
@@ -21,9 +21,23 @@
   },
 
   {
+    "name": "Vanshi",
+    "background": "MBA Student",
+    "current_skills": ["SAP", "Finance"],
+    "career_goal": "Bank Manager"
+  },
+
+  {
     "name": "Kiran",
     "background": "BCA Graduate",
     "current_skills": ["Excel", "SQL"],
     "career_goal": "Data Analyst"
+  },
+
+  {
+    "name": "Rudhrakshi",
+    "background": "MA Student",
+    "current_skills": ["Writing", "Communication"],
+    "career_goal": "Writer"
   }
 ]
