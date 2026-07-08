@@ -1,119 +1,253 @@
 # AI-Course-Recommendation-Agent
-An AI agent that recommends personalized learning paths based on student skills, goals, and background.
-# AI Course Recommendation Agent
 
-## Rooman AI Challenge - Junior AI Research Associate
+An AI agent that recommends personalized learning paths based on student skills, goals, and background.
+
 
 ## Project Overview
 
-AI Course Recommendation Agent is a personalized learning path recommendation system.
+AI Course Recommendation Agent is an intelligent AI-powered system that suggests personalized learning paths for students based on their background, existing skills, and career goals.
 
-The agent takes a student's background, current skills, and career goal as input and recommends suitable courses with explanations.
+The agent analyzes user input, checks the available course catalogue, and uses a Large Language Model (LLM) to generate suitable course recommendations with clear reasoning.
 
-The goal is to help students identify missing skills and follow a structured learning path towards their career objectives.
+This project was developed for the Junior AI Research Associate - AI Agent Challenge.
+
 
 ---
 
 ## Agent Objective
 
-"My agent takes a student's profile and produces a personalized course recommendation path."
+My agent takes:
 
-Input:
 - Student background
-- Existing skills
+- Current skills
 - Career goal
 
-Output:
-- Recommended courses
-- Skill improvement path
-- Reason for each recommendation
+and produces:
+
+- Personalized course recommendations
+- Ordered learning path
+- Short explanation for every recommended course
+
 
 ---
 
 ## Features
 
-- Accepts student profile through command line
-- Maintains a structured course catalogue
-- Matches user skills with required skills
-- Finds missing skills
-- Recommends suitable courses
-- Provides explanation for every recommendation
+- Accepts student profile as input
+- Supports multiple career domains
+- Uses LLM-based reasoning
+- Reads course data from JSON catalogue
+- Generates personalized recommendations
+- Provides reasons for each selected course
+- Command-line based execution
+
+
+---
+
+## Supported Domains
+
+The course catalogue includes multiple fields such as:
+
+- Artificial Intelligence
+- Data Science
+- Software Development
+- Cyber Security
+- Web Development
+- Banking and Finance
+- Business Management
+- Teaching
+- Law
+- Healthcare
+- Writing and Literature
+- Design
+- Hospitality
+
 
 ---
 
 ## Technology Stack
 
-- Python
-- JSON
-- Rule-based AI recommendation approach
+| Component               | Technology |
+|-------------------------|------------|
+| Programming Language    |     Python |
+| AI Model                | Llama 3.1 8B Instant |
+| LLM Provider            | Groq API |
+| Data Storage            | JSON |
+| Interface               | Command Line Interface (CLI) |
+
+
+---
+
+## How the Agent Works
+
+Workflow:
+
+User Input
+
+↓
+
+Load Course Catalogue (courses.json)
+
+↓
+
+Create Prompt with Student Details + Course Data
+
+↓
+
+Send Request to Llama LLM using Groq API
+
+↓
+
+Generate Course Recommendations
+
+↓
+
+Display Personalized Learning Path
+
+
+---
+
+## AI Model Integration
+
+This project uses Groq API to access the Llama 3.1 8B Instant language model.
+
+The LLM helps the agent understand:
+
+- Student goals
+- Existing skills
+- Suitable learning paths
+
+
+Model used:
+`lama-3.1-8b-instant`
+
+
+
+---
+
+## System Prompt Design
+
+The system prompt defines the role and rules of the agent.
+
+The model is instructed to:
+
+- Act as an AI Course Recommendation Agent
+- Analyze student details
+- Recommend relevant courses
+- Avoid unrelated recommendations
+- Provide short explanations
+
 
 ---
 
 ## Project Structure
-
 AI-Course-Recommendation-Agent/
 
-├── app.py  
-├── courses.json  
-├── students.json  
-├── requirements.txt  
-├── sample_outputs.txt  
-├── README.md  
+│
+├── app.py
+├── courses.json
+├── students.json
+├── requirements.txt
+├── sample_outputs.txt
+├── README.md
+└── .gitignore
+
 
 ---
 
-## Installation and Setup
+## Installation Steps
 
-1. Clone the repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/bhavana-1807/AI-Course-Recommendation-Agent.git
 ```
-
-2.Move into the project folder
+Move into project folder:
 ```bash
 cd AI-Course-Recommendation-Agent
 ```
-3. Install dependencies
+### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
+### 3. API Key Setup
 
-4. Run the agent
+Create a .env file inside the project folder.
+
+Add your Groq API key:
+GROQ_API_KEY=api_key
+
+### 4. Run the Agent
+
+Execute:
 ```bash
 python app.py
 ```
 
-Sample Input
+### 5. Enter student details:
 
-Student Name:Bhavana A P
+Example:
 
-Background:MCA Student
+  Enter Student Name: Bhavana
+  Enter Background: MCA
+  Enter Current Skills: Python, SQL
+  Enter Career Goal: Data Scientist
 
-Current Skills:Python, SQL
+Output:
 
-Career Goal:AI Engineer
+  1. Course: Data Analysis with Python
+  Reason: Helps analyze datasets using Python libraries.
 
-Sample Output
+  2. Course: Machine Learning
+  Reason: Helps build intelligent systems using data.
 
-Recommended Learning Path:
+  3. Course: SQL Database Management
+  Reason: Helps manage structured data.
 
-Machine Learning
+### Sample Outputs
 
-Reason:
-Machine Learning helps build intelligent systems that learn from data.
+Multiple test cases are available in:
 
-Deep Learning
+```bash
+sample_outputs.txt
+```
 
-Reason:
-Deep Learning is useful for advanced AI applications like image recognition and NLP.
+The agent was tested with different domains including:
+ - Data Scientist
+- Bank Manager
+- Teacher
+-  Cyber Crime Officer
+   Writer
 
-Generative AI
 
-Reason:
-Generative AI helps create modern AI applications and agents.
+## Design Choices
+- Python was selected because it provides simple AI integration.
+- Groq API was used for fast LLM responses.
+- Llama model was selected for natural language understanding.
+- JSON was used as lightweight storage for the course catalogue.
+- CLI interface was used to keep the agent simple and easy to run.
+
+### Limitations and Future Improvements
+
+Current Limitations:
+
+ -- Course recommendations depend on available catalogue data.
+-- More career fields require adding more courses.
+
+Future Improvements:
+
+-- Add a web interface.
+-- Store user history in a database.
+-- Expand the course catalogue.
+-- Add user feedback-based recommendations.
 
 
-Author
-Created for Rooman AI Challenge
-Junior AI Research Associate Selection Round
+### Conclusion
+
+This AI Course Recommendation Agent demonstrates an end-to-end AI workflow:
+
+Input → Context Retrieval → LLM Reasoning → Recommendation Output
+
+The system provides personalized learning guidance using Python, JSON storage, Groq API, and Llama LLM.
+
+
