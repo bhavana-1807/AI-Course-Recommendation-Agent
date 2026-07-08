@@ -82,4 +82,130 @@
   "required_skills": ["communication"],
   "reason": "Provides understanding of human behavior and counseling basics."
 }
+  {
+  "course_name": "Creative Writing",
+  "career_goal": "Poet, Author, Writer",
+  "required_skills": ["writing", "creativity"],
+  "reason": "Improves storytelling, imagination, and creative expression skills."
+},
+
+{
+  "course_name": "Literature Studies",
+  "career_goal": "Poet, Writer, Teacher",
+  "required_skills": ["reading", "writing"],
+  "reason": "Develops language understanding and literary analysis skills."
+},
+
+{
+  "course_name": "Communication Skills",
+  "career_goal": "Writer, Speaker, Professional",
+  "required_skills": ["communication"],
+  "reason": "Improves expression and presentation skills."
+},
+  
+  {
+    "course_name": "Python Programming",
+    "career_goal": "Software Developer, Data Scientist, AI Engineer",
+    "required_skills": ["basic programming"],
+    "reason": "Builds programming foundation required for software and AI careers."
+  },
+
+  {
+    "course_name": "Data Analysis with Python",
+    "career_goal": "Data Analyst, Data Scientist",
+    "required_skills": ["python", "statistics"],
+    "reason": "Helps analyze and understand datasets using Python libraries."
+  },
+
+  {
+    "course_name": "SQL Database Management",
+    "career_goal": "Data Analyst, Backend Developer",
+    "required_skills": ["database basics"],
+    "reason": "Teaches storing and managing structured data."
+  },
+
+  {
+    "course_name": "Machine Learning",
+    "career_goal": "AI Engineer, Data Scientist",
+    "required_skills": ["python", "statistics"],
+    "reason": "Helps build intelligent systems using data."
+  },
+
+  {
+    "course_name": "Deep Learning",
+    "career_goal": "AI Engineer",
+    "required_skills": ["machine learning"],
+    "reason": "Covers neural networks and advanced AI applications."
+  },
+
+  {
+    "course_name": "Generative AI",
+    "career_goal": "AI Engineer, GenAI Developer",
+    "required_skills": ["AI basics"],
+    "reason": "Teaches LLMs, prompts, and modern AI applications."
+  },
+
+  {
+    "course_name": "Software Testing",
+    "career_goal": "Test Engineer",
+    "required_skills": ["programming basics"],
+    "reason": "Develops manual and automation testing skills."
+  },
+
+  {
+    "course_name": "Web Development",
+    "career_goal": "Web Developer",
+    "required_skills": ["html", "css"],
+    "reason": "Builds skills for creating websites and web applications."
+  },
+
+  {
+    "course_name": "Cyber Security Fundamentals",
+    "career_goal": "Cyber Security Analyst",
+    "required_skills": ["network basics"],
+    "reason": "Teaches security concepts and threat prevention."
+  },
+
+  {
+    "course_name": "Cloud Computing",
+    "career_goal": "Cloud Engineer",
+    "required_skills": ["computer basics"],
+    "reason": "Explains cloud platforms and deployment concepts."
+  },
+
+  {
+    "course_name": "Teaching Skills and Education Methods",
+    "career_goal": "Teacher",
+    "required_skills": ["communication"],
+    "reason": "Improves teaching methods and classroom skills."
+  },
+
+  {
+    "course_name": "Medical Law and Ethics",
+    "career_goal": "Healthcare Lawyer",
+    "required_skills": ["medical knowledge"],
+    "reason": "Connects healthcare background with legal principles."
+  },
+
+  {
+    "course_name": "Introduction to Law",
+    "career_goal": "Lawyer",
+    "required_skills": ["communication"],
+    "reason": "Provides basic understanding of legal systems."
+  },
+
+  {
+    "course_name": "Business Management",
+    "career_goal": "Manager, Entrepreneur",
+    "required_skills": ["leadership"],
+    "reason": "Develops business and management knowledge."
+  },
+
+  {
+    "course_name": "Digital Marketing",
+    "career_goal": "Marketing Specialist",
+    "required_skills": ["creativity"],
+    "reason": "Teaches online marketing and brand promotion skills."
+  }
+
 ]
