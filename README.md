@@ -143,6 +143,10 @@ The model is instructed to:
 ## Project Structure
 AI-Course-Recommendation-Agent/
 
+## Project Structure
+
+AI-Course-Recommendation-Agent/
+
 │
 ├── app.py
 ├── courses.json
@@ -150,8 +154,10 @@ AI-Course-Recommendation-Agent/
 ├── requirements.txt
 ├── sample_outputs.txt
 ├── README.md
-└── .gitignore
-
+├── .gitignore
+│
+└── tests/
+    └── test_agent.py
 
 ---
 
@@ -183,8 +189,35 @@ Execute:
 ```bash
 python app.py
 ```
+### 5. Testing
 
-### 5. Enter student details:
+This project includes automated test cases using pytest to verify important components of the AI Course Recommendation Agent.
+
+## Test Cases Included
+
+- Checks whether the course dataset file exists
+- Checks whether the student dataset file exists
+- Validates that course data is loaded successfully
+- Validates that student data is loaded successfully
+- Performs basic recommendation output validation
+
+### Run Tests
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+Execute test cases:
+```bash
+python -m pytest
+```
+Test files are available in:
+```bash
+tests/test_agent.py
+```
+
+### 6. Enter student details:
 
 Example:
 
@@ -217,7 +250,7 @@ The agent was tested with different domains including:
 - Bank Manager
 - Teacher
 -  Cyber Crime Officer
-   Writer
+- writer
 
 
 ## Design Choices
