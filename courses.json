@@ -1,38 +1,84 @@
-[
-  {
-    "course_name": "Python Programming",
-    "career_goal": "AI Engineer",
-    "required_skills": ["python"],
-    "reason": "Python is the foundation language required for AI and machine learning development."
-  },
-  {
-    "course_name": "Data Analysis with Python",
-    "career_goal": "Data Analyst",
-    "required_skills": ["python", "pandas", "numpy"],
-    "reason": "Data analysis skills help in cleaning, processing, and understanding datasets."
-  },
-  {
-    "course_name": "Machine Learning",
-    "career_goal": "AI Engineer",
-    "required_skills": ["machine learning", "statistics"],
-    "reason": "Machine Learning helps build intelligent systems that learn from data."
-  },
-  {
-    "course_name": "Deep Learning",
-    "career_goal": "AI Engineer",
-    "required_skills": ["neural networks"],
-    "reason": "Deep Learning is useful for advanced AI applications like image recognition and NLP."
-  },
-  {
-    "course_name": "SQL Database Management",
-    "career_goal": "Data Analyst",
-    "required_skills": ["sql"],
-    "reason": "SQL is required to store, retrieve, and analyze structured data."
-  },
-  {
-    "course_name": "Generative AI",
-    "career_goal": "AI Engineer",
-    "required_skills": ["llm", "prompt engineering"],
-    "reason": "Generative AI knowledge helps create modern AI applications and agents."
-  }
-]
+,
+{
+  "course_name": "Banking and Finance Fundamentals",
+  "career_goal": "Banker, Financial Analyst",
+  "required_skills": ["mathematics", "finance basics"],
+  "reason": "Builds knowledge of banking operations, finance, and financial services."
+},
+
+{
+  "course_name": "Accounting and Taxation",
+  "career_goal": "Accountant, Finance Professional",
+  "required_skills": ["accounting basics"],
+  "reason": "Develops accounting, taxation, and financial reporting skills."
+},
+
+{
+  "course_name": "Human Resource Management",
+  "career_goal": "HR Manager",
+  "required_skills": ["communication", "management"],
+  "reason": "Teaches recruitment, employee management, and workplace skills."
+},
+
+{
+  "course_name": "Sales and Marketing Management",
+  "career_goal": "Sales Manager, Marketing Manager",
+  "required_skills": ["communication"],
+  "reason": "Improves customer handling, sales strategies, and business growth skills."
+},
+
+{
+  "course_name": "Nursing and Patient Care",
+  "career_goal": "Nurse, Healthcare Professional",
+  "required_skills": ["medical basics"],
+  "reason": "Develops healthcare and patient support knowledge."
+},
+
+{
+  "course_name": "Hospital Administration",
+  "career_goal": "Hospital Manager",
+  "required_skills": ["healthcare knowledge"],
+  "reason": "Teaches healthcare operations and hospital management."
+},
+
+{
+  "course_name": "Civil Engineering Fundamentals",
+  "career_goal": "Civil Engineer",
+  "required_skills": ["engineering basics"],
+  "reason": "Builds knowledge of construction and infrastructure development."
+},
+
+{
+  "course_name": "Mechanical Design",
+  "career_goal": "Mechanical Engineer",
+  "required_skills": ["mechanical basics"],
+  "reason": "Develops machine design and manufacturing knowledge."
+},
+
+{
+  "course_name": "Graphic Design",
+  "career_goal": "Designer",
+  "required_skills": ["creativity"],
+  "reason": "Builds visual design and digital creativity skills."
+},
+
+{
+  "course_name": "Content Writing",
+  "career_goal": "Writer, Content Creator",
+  "required_skills": ["writing"],
+  "reason": "Improves professional writing and content creation skills."
+},
+
+{
+  "course_name": "Hotel Management",
+  "career_goal": "Hotel Manager",
+  "required_skills": ["customer service"],
+  "reason": "Develops hospitality and service management skills."
+},
+
+{
+  "course_name": "Psychology Basics",
+  "career_goal": "Psychologist, Counselor",
+  "required_skills": ["communication"],
+  "reason": "Provides understanding of human behavior and counseling basics."
+}
